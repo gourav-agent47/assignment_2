@@ -1,0 +1,79 @@
+h1 {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+h2 {
+	background-color: #F00F01;
+	text-align: right;
+	float: right;
+	font-family: Arial,sans-serif;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid black;
+	position:relative;
+	top: -1px;
+	right: -1px;
+	}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+div{
+	width: 33.33%;
+	background: grey;
+	float: left;
+	border : 1px solid black;
+	margin-left: 2.5%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+p{
+	clear: right;
+	margin: 5px;
+}
+	/****Large devices***/
+@media (min-width: 992px) {
+	.col-lg-4{
+		width: 30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6{
+		width: 46.25%;
+	}
+	.col-md-12{
+		width: 95%;
+	}
+  }
+
+@media (max-width: 767px) {
+	.col-sm-12{
+		width: 95%;
+	}
+  }
+
+body {
+
+    background-color: white;
+
+  }
+
+#title-1{
+	background-color: blue;
+	color: white;
+}
+
+#title-2{
+	background-color: purple;
+	color: black;
+}
+
+#title-3{
+	background-color: maroon;
+	color: pink;
+}
